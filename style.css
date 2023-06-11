@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar section start */
+.company-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.company-logo{
+    display: flex;
+}
+.menu{
+    display: none;
+}
+.company-logo h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+  color: #3a3a3a;
+}
+.company-container ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.company-container ul > li > a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+  padding-left: 34px;
+}
+/* navbar section End */
+
+/* banner section star */
+.banner-section,
+.partner-section,
+.popular-section,
+.feature-section,
+.footer-section,
+.navbar-section {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-container {
+  width: 85%;
+  /* back/ground-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.banner-content {
+  width: 50%;
+  margin: 0 60px 0;
+}
+
+.banner-image {
+  width: 50%;
+  background: url("./images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+
+.banner-image img {
+  width: 80%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.banner-content h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 52px;
+  color: #3a3a3a;
+}
+
+.banner-content p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+
+.btn {
+  background-color: #e02c6d;
+  border: none;
+  padding: 10px 24px;
+  color: white;
+}
+
+#prebook-btn {
+  border-radius: 41px;
+  margin-top: 16px;
+}
+
+/* banner section end */
+
+/* Company Section Start */
+.comapany-container {
+  margin: 100px 0;
+  width: 1110px;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+/* Company Section End */
+
+/* Popular Section Start */
+.popular-container {
+  width: 70%;
+}
+
+.popular-container h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 28px;
+  color: #3a3a3a;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.popular-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card {
+  padding: 17px 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  /* width: 329px;
+  height: 476px; */
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.card-content h2 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 28px;
+  color: #18191f;
+}
+
+.card-pricing {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  margin: 6px 0;
+}
+
+#review {
+  font-size: 10px;
+  color: orange;
+}
+
+.card-shifting {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 14px;
+  color: #787885;
+}
+
+.see-more {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+.see-more p {
+  color: #e02c6dde;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* Popular Section End */
+
+/* Feature Section Star */
+.feature-section {
+  margin: 100px 0;
+}
+.feature-container {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-image {
+  margin-right: 96px;
+}
+
+.feature-content {
+  width: 50%;
+}
+
+.feature-content h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 38px;
+  color: #0a0826;
+}
+
+.feature-content p {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+  color: #6c6c6c;
+  margin: 16px 0;
+}
+
+#join-btn {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* Feature Section End */
+
+/* footer section start */
+.footer-container {
+  background-color: #0A0826;
+  width: 100%;
+  color: white;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-container h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+}
+.footer-container p {
+  margin-top: 3px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  color: #d9dbe1;
+}
+/* footer section end */
+
+/* RESPONSIVE DESIGN */
+@media only screen and (max-width:576px){
+    .company-container{
+        width: 100%;
+    }
+    .company-logo{
+        width: 70%;
+        justify-content: space-between;
+    }
+    .menu{
+        display: block;
+        margin-left: 16px;
+    }
+    .company-container ul > li{
+        display: none;
+    }
+    .company-container ul > li:nth-child(6){
+        display: block;
+        margin-top: 2px;
+    }
+    /* banner */
+    .banner-container{
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-image{
+        width: 80%;
+        margin-left: 90px;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-content h1{
+        font-size: 26px;
+    }
+    /* Company section */
+    .comapany-container{
+        width: 70%;
+        flex-wrap: wrap;
+    }
+    /* Popular Section */
+    .popular-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* feature section*/
+    .feature-container{
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .feature-content{
+        text-align: center;
+    }
+    .feature-content h1{
+        font-size: 30px;
+    }
+    .feature-content p{
+        font-size: 16px;
+    }
+    .feature-image{
+        margin-right: 0;
+    }
+}
