@@ -282,13 +282,14 @@
     /* banner */
     .banner-container{
         width: 100%;
-        flex-direction: column-reverse;
+        flex-flow: column-reverse wrap;
         justify-content: center;
         align-items: center;
     }
     .banner-image{
         width: 80%;
         margin-left: 90px;
+        flex-grow: 1;
     }
     .banner-content{
         text-align: center;
